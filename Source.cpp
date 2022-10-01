@@ -7,15 +7,14 @@ int main() {
 		counter++;
 		result = price * counter;
 		if (result % 10 == 0 || result % 10 == coin) break;
-		cout << "proccicng\n";
 	}
 	cout << counter;
 	return 0;
 }
 
-/*
+/*   An oher way
 int main() {
-    // An oher way 
+    
 	int price = 0, coin = 0; int ten = 10,counter =1;
 	cin >> price >> coin;
 	int PRICE = price;
